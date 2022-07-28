@@ -11,7 +11,7 @@ public class Main3 {
 
         try {
             fileInputStream = new FileInputStream(input);
-            fileOutputStream = new FileOutputStream(output, true);
+            fileOutputStream = new FileOutputStream(output, false);
             while ((n = fileInputStream.read(buffer)) != -1) {
                 System.out.println(n);
                 fileOutputStream.write(buffer, 0, n);

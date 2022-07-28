@@ -11,9 +11,6 @@ public class Main {
 
         int n = 0;
         n = fileInputStream.read();
-        System.out.println((char)n);
-        System.out.println(n);
-        System.out.println(n);
 
 
        while((n = fileInputStream.read()) != -1){
